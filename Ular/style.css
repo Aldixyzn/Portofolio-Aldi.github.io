@@ -1,0 +1,13 @@
+body {
+    margin: 0; /* Hilangkan margin halaman */
+    display: flex; /* Atur layout agar canvas berada di tengah */
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    height: 100vh; /* Tinggi layar penuh */
+    background-color: #000; /* Latar belakang hitam */
+}
+
+canvas {
+    border: 1px solid #fff; /* Tambahkan border putih di sekitar canvas */
+    background-color: #111; /* Warna latar belakang canvas */
+}
