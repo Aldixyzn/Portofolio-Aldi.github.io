@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #cfe2ff;
+    color: #000;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+canvas {
+    display: block;
+    width: 95%;
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
